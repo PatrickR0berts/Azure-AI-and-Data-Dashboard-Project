@@ -3,6 +3,8 @@ import wbgapi as wb
 import numpy as np
 import time
 
+#venv\Scripts\activate 
+
 def fetch_wb_data(indicator, countries='all', start_year=2000, end_year=2024):
     """
     Fetch data from the World Bank API for a given indicator and countries.
